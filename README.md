@@ -40,6 +40,8 @@ Then append a new line at the bottom of the file:
 module.exports = __toCommonJS(main_default);
 ```
 
+![Screenshot 2022-11-04 at 19 00 56](https://user-images.githubusercontent.com/8344688/200054971-d7235ab4-a47b-4604-a400-f411425f9e13.png)
+
 Now, if you rerun tests inside `cjs-main` folder, `npm run test`, they will pass.
 
 ## Practically
