@@ -1,9 +1,8 @@
 const { strict } = require("assert");
-// const imported = require("../dist/cjs-main.cjs.js");
-const {tryme} = require("../dist/cjs-main.cjs.js");
+const imported = require("../dist/cjs-main.cjs.js");
 
 strict.equal(
-  tryme(2, 2),
+  imported.tryme(2, 2),
   4
 );
 
