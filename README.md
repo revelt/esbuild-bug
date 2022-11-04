@@ -13,12 +13,16 @@ This setup mimics the ESLint plugins — they are in CJS, and the exported defau
 
 ## Instructions
 
-1. `cd esm-dep`
-2. `npm run build` — it will build into `../cjs-main/node_modules/esm-dep` mimicking a real npm package. In real life, it would be an ESLint plugin. Notice we deliberately are not git-ignoring the folder `./cjs-main/node-modules/*` — it's mimicking the case where `esm-dep` would be a real npm package.
-3. `cd ..`
-4. `cd cjs-main`
-5. `npm run build`
-6. `npm run test`
+1. `mkdir deleteme`
+2. `git clone git@github.com:revelt/esbuild-bug.git`
+3. `cd esbuild-bug`
+4. `npm i`
+5. `cd esm-dep`
+6. `npm run build` — it will build into `../cjs-main/node_modules/esm-dep` mimicking a real npm package. In real life, it would be an ESLint plugin. Notice we deliberately are not git-ignoring the folder `./cjs-main/node-modules/*` — it's mimicking the case where `esm-dep` would be a real npm package.
+7. `cd ..`
+8. `cd cjs-main`
+9. `npm run build`
+10. `npm run test`
 
 At this moment, the test will fail, complaining about:
 
