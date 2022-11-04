@@ -1,0 +1,16 @@
+{
+  "name": "cjs-main",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "email": "roy@codsen.com",
+    "name": "Roy Revelt",
+    "url": "https://codsen.com"
+  },
+  "main": "dist/cjs-main.cjs.js",
+  "scripts": {
+    "build": "node './build-script.mjs'",
+    "test": "node './test/test.js'"
+  }
+}

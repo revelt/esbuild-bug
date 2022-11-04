@@ -1,0 +1,14 @@
+{
+  "name": "esbuild-bug",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Roy Revelt",
+  "main": "build-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.13"
+  }
+}

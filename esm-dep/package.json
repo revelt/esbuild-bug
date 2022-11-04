@@ -1,0 +1,19 @@
+{
+  "name": "esm-dep",
+  "version": "1.0.0",
+  "description": "a suspected CJS default exports bug in esBuild",
+  "license": "MIT",
+  "author": {
+    "email": "roy@codsen.com",
+    "name": "Roy Revelt",
+    "url": "https://codsen.com"
+  },
+  "type": "module",
+  "exports": {
+    "default": "./dist/esm-dep.esm.js"
+  },
+  "scripts": {
+    "build": "node './build-script.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

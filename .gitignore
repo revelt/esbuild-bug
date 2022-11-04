@@ -1,0 +1,47 @@
+# yarn
+package-lock.json
+data/yarn.lock
+
+# dependencies
+esm-dep/node_modules
+/node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# build
+.next/
+out/
+build/
+/dist/
+/cjs-main/dist/
+/esm-dep/dist/
+
+# misc
+.cache
+.DS_Store
+*.pem
+ideas.md
+deps-graph.png
+.nyc_output
+testStats.md
+package.json.lerna_backup
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# turbo
+.turbo
+
+# testing tsc build output:
+dist_ts/
