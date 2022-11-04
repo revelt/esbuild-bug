@@ -13,7 +13,7 @@ This setup mimics the ESLint plugins — they are in CJS, and the exported defau
 
 ## Instructions
 
-1. `mkdir deleteme`
+1. `mkdir deleteme && cd deleteme`
 2. `git clone git@github.com:revelt/esbuild-bug.git`
 3. `cd esbuild-bug`
 4. `npm i`
